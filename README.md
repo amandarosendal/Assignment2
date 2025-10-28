@@ -1,4 +1,4 @@
-# Assignment 2
+Assignment 2
 
 Jag har hämtat rätter från TheMealDB API (fetch + JSON).
 Jag har sorterat och skrivit ut de 5 första namnen (A–Ö),

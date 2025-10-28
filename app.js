@@ -1,9 +1,9 @@
 // Här hämtar vi måltider från API:t jag fick rekommenderat och gör om till JS-objekt.
 const API_URL = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
-// Här hämtar vi rätter från API:t och gör då om svaret till JS-objekt.
-// Om TheMealDB ger null blir det en tom array.
-// async är att jag väntar på svaret innan nästa rad körs.
+// Här hämtade vi rätter från API:t och gör då om svaret till JS-objekt.
+// Om TheMealDB ger resulatet null så blir det en tom array.
+// async menas med att jag väntar på svaret innan nästa rad körs.
 // res.json() menas med att jag plockar ut datan som objekt.
 async function fetchMeals() {
     const res = await fetch(API_URL);
